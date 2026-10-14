@@ -42,3 +42,38 @@ body {
 .menu a:hover {
   text-decoration: underline;
 }
+
+.apresentacao {
+  padding: 60px 0;
+  background-color: #f4f5f7;
+}
+
+.apresentacao-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+/* circulo com iniciais, nao tenho foto de verdade ainda */
+.avatar {
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  border-radius: 50%;
+  background-color: #1f2a44;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cargo {
+  color: #555;
+  margin: 4px 0 12px;
+}
+
+.bio {
+  max-width: 560px;
+}
